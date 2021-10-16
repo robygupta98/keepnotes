@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@200;400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #f4f7f8;
+    font-family: "popping",sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    width: 100vw;
+    height: 4.0rem;
+    background-color: #fbb925;
+    color: white;
+    box-shadow: 0px 10px 16px rgb(248,247,247);
+}
+h1{
+    font-weight: 900;
+    font-size: larger;
+    margin: -31px 0px 0px 75px;
+    font-family: "josefin Sans","Arial Narrow",Arial, sans-serif;
+}
+h2{
+    font-size: inherit;
+    font-weight: bold;
+    color: black;
+    margin: 16px 0px -11px 22px;
+}
+deleteIcon{
+    color: yellow;
+}
+btn{
+    border-color: yellow;
+    border-radius: 33px;
+    color: yellow;
+}
+btn:hover{
+    background-color: yellow;
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 9px;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+.main_note{
+    background-color: #fff;
+    margin: 0px 550px;
+    height: 80px;
+    width: 450px;
+    /* overflow-y: scroll; */
+    margin-top: 1rem;
+    border-radius: 7px;
+    box-shadow: 3px 3px 12px -5px rgba(0,0,0,0.5);
+}
+.note{
+    background-color: #fff;
+    margin: 30px 20px;
+    height: 160px;
+    width: 310px;
+    overflow-y: scroll;
+    margin-top: 7rem;
+    text-align: left;
+    float: left;
+}
+input {
+    width: 95%;
+    font-size: larger;
+    border: none;
+    margin: 12px 0px 0px 15px;
+    font-weight: bold;
+}
+textarea{
+    width: 95%;
+    font-weight: 400;
+    font-size: larger;
+    margin: 12px 0px 0px 15px;
+    border: none;
+}
+button{
+    float: right;
+    background-color: #fbb925;
+    margin: 12px;
+    border-radius: 20px;
+}
+.footer {
+    clear: both;
+    position: relative;
+    height: 100;
+    margin-top: 600px;
+}

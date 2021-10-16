@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    margin: 150px;
+}
+h1{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 20px;
+}
+h2{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+ul{
+    margin-top: 50px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #1c6aa2;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    float: left;
+    width: 335px;
+    height: 134px;
+    box-shadow: 3px 3px 12px -5px rgba(0,0,0,0.5);
+    margin: 28px;
+}
+.card:hover{
+    background-color: turquoise;
+}
+.main_note{
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.card_inner{
+    margin: 10px;
+}
+p{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+span{
+    font-size: 9px;
+}
+.card_samal{
+    font-size: xx-large;
+    text-shadow: 5px 5px 1px #000000;
+}
